@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/all.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <main class="home">
+      <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+        <div
+          class="container-fluid d-flex justify-content-lg-evenly align-items-center bg-dark p-3 bg-transparent"
+        >
+          <a href="" class="navbar-brand order-lg-0 order-1">
+            <img
+              src="./img/site-logo-white-free-img.png"
+              alt="Logo"
+              class="img-fluid"
+            />
+          </a>
+
+          <button
+            class="navbar-toggler order-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarLinks"
+            aria-controls="navbarLinks"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="shopping-cart text-white position-relative p-3 d-inline-block order-2"
+          >
+            <div
+              class="cart-number d-flex justify-content-center align-items-center rounded-circle"
+            >
+              0
+            </div>
+            <i class="fa-solid fa-cart-shopping fs-5"></i>
+          </div>
+
+          <div
+            class="collapse navbar-collapse justify-content-end order-lg-1 order-3"
+            id="navbarLinks"
+          >
+            <div class="navbar-nav" style="font-size: 1.1em">
+              <a class="nav-link text-uppercase text-white mx-2" href="#"
+                >Home</a
+              >
+              <a class="nav-link text-uppercase text-white mx-2" href="#"
+                >Shop</a
+              >
+              <a class="nav-link text-uppercase text-white mx-2" href="#"
+                >lookbook</a
+              >
+              <a class="nav-link text-uppercase text-white mx-2" href="#"
+                >about us</a
+              >
+              <a class="nav-link text-uppercase text-white mx-2" href="#"
+                >contact us</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+      <section class="home-arrivals container-fluid">
+        <div class="home-content container d-flex flex-column justify-content-center align-items-start" style="height: 100%;">
+          <p class="text-white fw-semibold">Summer Collection</p>
+          <p class="text-white fw-light line" style="font-size: 3.5em; letter-spacing: 0.02em;">Introducing New Arrivals</p>
+          <p class="text-white mb-5 line">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+          </p>
+          <button class="btn btn-light text-uppercase px-4 py-3 fw-medium" style="letter-spacing: 0.1em;">View Collection</button>
+        </div>
+      </section>
+    </main>
+
+    <section class="collections mt-3">
+      <div class="collections-content container-fluid p-5">
+        <div class="grid-items">
+          <div class="shipping-text text-white text-capitalize d-flex flex-column align-items-center justify-content-center">
+            <p class="fw-semibold text-center">summer collection</p>
+          </div>
+        </div>
+        <div class="grid-items">
+          <div class="shipping-text text-white text-capitalize  d-flex flex-column align-items-center justify-content-center">
+            <p class="fw-semibold text-center">women's collection</p>
+          </div>
+        </div>
+        <div class="grid-items">
+          <div class="shipping-text text-white text-capitalize d-flex flex-column align-items-center justify-content-center">
+            <p class="fw-semibold text-center">men's collection</p>
+          </div>
+        </div>
+        <div class="grid-items">
+          <div class="shipping-text text-white text-capitalize d-flex flex-column align-items-center justify-content-center">
+            <p class="fw-semibold text-center">free shipping on all orders above $299</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote container d-flex justify-content-center justify-content-lg-start align-items-center " style="height: 300px">
+      <div class="quote-content">
+        <i class="fa-solid fa-quote-left fs-2 fw-semibold text-secondary-emphasis"></i>
+        <p class="fw-light fs-5" id="quote-length">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, exercitationem harum, id ratione, dolore voluptates cumque expedita enim reiciendis error accusamus pariatur assumenda?</p>
+        <div class="d-inline-block" style="width: 20%; border: 1px solid rgb(138, 138, 138)"></div>
+        <p class="d-inline-block text-capitalize text-secondary">mark fosters</p>
+      </div>
+    </section>
+
+    <section class="offer container-fluid d-flex flex-lg-row flex-md-column justify-content-center flex-wrap justify-content-lg-evenly align-items-center" style="background: url('./img/white-background-with-zigzag-pattern-design_1017-33197.png');">
+      <div class="offer-text text-center text-xl-start">
+        <img class="img-fluid mb-4" src="./img/discount.png" alt="" style="width: 50px; height: 50px;">
+        <p class="text-uppercase fs-3">25% off</p>
+        <p class="text-capitalize fs-4">on all orders above $299!</p>
+        <p class="text-secondary mb-5 offer-text-length">Lorem ipsum dolor sit amet, consectetur, sed do eiusmod tempor incididunt labore dolore.</p>
+        <button class="btn btn-secondary text-uppercase py-3 px-5 fw-semibold" style="letter-spacing: 0.02em;">grab this offer</button>
+      </div>
+      <div class="offer-image position-relative">
+        <img id="offer-girl-ghost" class="img-fluid" src="./img/smiling-girl.png" alt="" >
+        <img id="offer-girl" class="img-fluid" src="./img/smiling-girl.png" alt="" >
+      </div>
+    </section>
+
+    <section class="products container-fluid p-5">
+      <p class="fs-2 text-capitalize fw-normal text-center mb-5">featured products</p>
+      <div class="products-container d-flex flex-wrap justify-content-center">
+        <div class="product-content">
+          <div class="product-image position-relative p-3">
+            <img src="./img/sports-shoe5-400x400.jpg" alt="" class="img-fluid" style="width: 300px; height: 300px">
+            <div class="product-sale">
+              <p class="text-capitalize d-flex justify-content-center align-items-center text-white position-absolute top-0 end-0 border border-dark rounded-circle bg-dark p-2">sale!</p>
+            </div>
+          </div>
+
+          <div class="product-info p-3">
+            <p class="text-secondary mb-2">Men's Shoes</p>
+            <p class="text-capitalize fs-5 mb-2">DNK black blue sport shoes</p>
+            <div class="star-rating d-flex justify-content-start flex-nowrap align-items-center">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+
+            <div class="product-price d-flex mt-2">
+              <p class="mx-1 text-decoration-line-through text-secondary">$35.00</p>
+              <p class="mx-1 fw-medium">$32.00</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-content">
+          <div class="product-image position-relative p-3">
+            <img src="./img/product-m-jeans1-400x400.jpg" alt="" class="img-fluid" style="width: 300px; height: 300px">
+          </div>
+
+          <div class="product-info p-3">
+            <p class="text-secondary mb-2">Men's Jeans</p>
+            <p class="text-capitalize fs-5 mb-2">dark brown jeans</p>
+            <div class="star-rating d-flex justify-content-start flex-nowrap align-items-center">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+
+            <div class="product-price d-flex mt-2">
+              <p class="mx-1 fw-medium">$145.00</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-content">
+          <div class="product-image position-relative p-3">
+            <img src="./img/sports-shoe2-400x400.jpg" alt="" class="img-fluid" style="width: 300px; height: 300px">
+            <div class="product-sale">
+              <p class="text-capitalize d-flex justify-content-center align-items-center text-white position-absolute top-0 end-0 border border-dark rounded-circle bg-dark p-2">sale!</p>
+            </div>
+          </div>
+
+          <div class="product-info p-3">
+            <p class="text-secondary mb-2">Men's Shoes</p>
+            <p class="text-capitalize fs-5 mb-2">DNK red sport shoes</p>
+            <div class="star-rating d-flex justify-content-start flex-nowrap align-items-center">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+
+            <div class="product-price d-flex mt-2">
+              <p class="mx-1 text-decoration-line-through text-secondary">$35.00</p>
+              <p class="mx-1 fw-medium">$32.00</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-content">
+          <div class="product-image position-relative p-3">
+            <img src="./img/product-w-jeans1-400x400.jpg" alt="" class="img-fluid" style="width: 300px; height: 300px">
+            <div class="product-sale">
+              <p class="text-capitalize d-flex justify-content-center align-items-center text-white position-absolute top-0 end-0 border border-dark rounded-circle bg-dark p-2">sale!</p>
+            </div>
+          </div>
+
+          <div class="product-info p-3">
+            <p class="text-secondary mb-2">Women's Jeans</p>
+            <p class="text-capitalize fs-5 mb-2">blue denim shorts</p>
+            <div class="star-rating d-flex justify-content-start flex-nowrap align-items-center">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+
+            <div class="product-price d-flex mt-2">
+              <p class="mx-1 text-decoration-line-through text-secondary">$45.00</p>
+              <p class="mx-1 fw-medium">$35.00</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-content">
+          <div class="product-image position-relative p-3">
+            <img src="./img/product-w-jeans2-400x400.jpg" alt="" class="img-fluid" style="width: 300px; height: 300px">
+            <div class="product-sale">
+              <p class="text-capitalize d-flex justify-content-center align-items-center text-white position-absolute top-0 end-0 border border-dark rounded-circle bg-dark p-2">sale!</p>
+            </div>
+          </div>
+
+          <div class="product-info p-3">
+            <p class="text-secondary mb-2">Women's Shoes</p>
+            <p class="text-capitalize fs-5 mb-2">basic blue jeans</p>
+            <div class="star-rating d-flex justify-content-start flex-nowrap align-items-center">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+
+            <div class="product-price d-flex mt-2">
+              <p class="mx-1 text-decoration-line-through text-secondary">$34.00</p>
+              <p class="mx-1 fw-medium">$30.00</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-content">
+          <div class="product-image position-relative p-3">
+            <img src="./img/product-accessory2-400x400.jpg" alt="" class="img-fluid" style="width: 300px; height: 300px">
+            <div class="product-sale">
+              <p class="text-capitalize d-flex justify-content-center align-items-center text-white position-absolute top-0 end-0 border border-dark rounded-circle bg-dark p-2">sale!</p>
+            </div>
+          </div>
+
+          <div class="product-info p-3">
+            <p class="text-secondary mb-2">Accessories</p>
+            <p class="text-capitalize fs-5 mb-2">anchor bracelet</p>
+            <div class="star-rating d-flex justify-content-start flex-nowrap align-items-center">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+
+            <div class="product-price d-flex mt-2">
+              <p class="mx-1 text-decoration-line-through text-secondary">$12.00</p>
+              <p class="mx-1 fw-medium">$10.00</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-content">
+          <div class="product-image position-relative p-3">
+            <img src="./img/product-accessory3-400x400.jpg" alt="" class="img-fluid" style="width: 300px; height: 300px">
+            <div class="product-sale">
+              <p class="text-capitalize d-flex justify-content-center align-items-center text-white position-absolute top-0 end-0 border border-dark rounded-circle bg-dark p-2">sale!</p>
+            </div>
+          </div>
+
+          <div class="product-info p-3">
+            <p class="text-secondary mb-2">Accessories</p>
+            <p class="text-capitalize fs-5 mb-2">Buddha bracelet</p>
+            <div class="star-rating d-flex justify-content-start flex-nowrap align-items-center">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+
+            <div class="product-price d-flex mt-2">
+              <p class="mx-1 text-decoration-line-through text-secondary">$12.00</p>
+              <p class="mx-1 fw-medium">$10.00</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-content">
+          <div class="product-image position-relative p-3">
+            <img src="./img/product-bag2.jpg" alt="" class="img-fluid" style="width: 300px; height: 300px">
+          </div>
+
+          <div class="product-info p-3">
+            <p class="text-secondary mb-2">Purses And Handbags</p>
+            <p class="text-capitalize fs-5 mb-2">black over-the-shoulder handbag</p>
+            <div class="star-rating d-flex justify-content-start flex-nowrap align-items-center">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+
+            <div class="product-price d-flex mt-2">
+              <p class="mx-1 fw-medium">$75.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tags container d-flex flex-column flex-md-row justify-content-evenly align-items-center p-5">
+      <div class="container d-flex justify-content-center align-items-center rounded shadow px-4 py-3 my-2 mx-2">
+        <img src="./img/express-delivery.png" alt="" class="img-fluid" style="width: 50px; height:50px;">
+        <p class="text-center text-capitalize mb-0 mx-3">express delivery</p>
+      </div>
+      <div class="container d-flex justify-content-center align-items-center rounded shadow px-4 py-3 my-2 mx-2">
+        <img src="./img/tracking.png" alt="" class="img-fluid" style="width: 50px; height:50px;">
+        <p class="text-center text-capitalize mb-0 mx-3">order tracking</p>
+      </div>
+      <div class="container d-flex justify-content-center align-items-center rounded shadow px-4 py-3 my-2 mx-2">
+        <img src="./img/discount.png" alt="" class="img-fluid" style="width: 50px; height:50px;">
+        <p class="text-center text-capitalize mb-0 mx-3">regular discounts</p>
+      </div>
+    </section>
+
+    <section class="links container-fluid bg-black">
+      <div class="links-content container d-flex flex-lg-row flex-column justify-content-lg-evenly p-5">
+        <div class="d-flex flex-column mx-3 justify-content-center mb-4 mb-lg-0">
+          <img src="./img/site-logo-white-free-img.png" alt="" class="img-fluid" style="width: 150px; height: 55px">
+        </div>
+        <div class="d-flex flex-column mx-3">
+          <p class="fs-4 text-white text-capitalize mt-2 mt-lg-0 fw-medium">shop collections</p>
+          <ul class="list-decoration-none p-0">
+            <li class="text-white text-capitalize fw-light mt-1">men's jeans</li>
+            <li class="text-white text-capitalize fw-light mt-1">women's tops</li>
+            <li class="text-white text-capitalize fw-light mt-1">hoodies</li>
+            <li class="text-white text-capitalize fw-light mt-1">jackets</li>
+            <li class="text-white text-capitalize fw-light mt-1">shoes</li>
+          </ul>
+        </div>
+        <div class="d-flex flex-column mx-3">
+          <p class="fs-4 text-white text-capitalize mt-2 mt-lg-0 fw-medium">latest collection</p>
+          <ul class="list-decoration-none p-0">
+            <li class="text-white text-capitalize fw-light mt-1">bags</li>
+            <li class="text-white text-capitalize fw-light mt-1">Accessories</li>
+            <li class="text-white text-capitalize fw-light mt-1">shorts</li>
+            <li class="text-white text-capitalize fw-light mt-1">wallets</li>
+            <li class="text-white text-capitalize fw-light mt-1">sunglasses</li>
+          </ul>
+        </div>
+        <div class="d-flex flex-column mx-3">
+          <p class="fs-4 text-white text-capitalize mt-2 mt-lg-0 fw-medium">popular collection</p>
+          <ul class="list-decoration-none p-0">
+            <li class="text-white text-capitalize fw-light mt-1">women's shorts</li>
+            <li class="text-white text-capitalize fw-light mt-1">belts</li>
+            <li class="text-white text-capitalize fw-light mt-1">watches</li>
+            <li class="text-white text-capitalize fw-light mt-1">women's jeans</li>
+            <li class="text-white text-capitalize fw-light mt-1">formal shoes</li>
+          </ul>
+        </div>
+        <div class="d-flex flex-column mx-3">
+          <p class="fs-4 text-white text-capitalize mt-2 mt-lg-0 fw-medium">quick links</p>
+          <ul class="list-decoration-none p-0">
+            <li class="text-white text-capitalize fw-light mt-1">home</li>
+            <li class="text-white text-capitalize fw-light mt-1">shop</li>
+            <li class="text-white text-capitalize fw-light mt-1">lookbook</li>
+            <li class="text-white text-capitalize fw-light mt-1">about us</li>
+            <li class="text-white text-capitalize fw-light mt-1">contact us</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer class="container-fluid">
+      <div class="footer-content container-fluid d-flex justify-content-between p-5">
+        <div class="text-secondary-emphasis mx-2 mx-lg-0">Copyright &copy; 2024 Karim Chehab</div>
+        <div class="d-flex justify-content-evenly align-items-center mx-2 mx-lg-0">
+          <i class="fa-brands fa-facebook text-secondary-emphasis mx-2 fs-5"></i>
+          <i class="fa-brands fa-twitter text-secondary-emphasis mx-2 fs-5"></i>
+          <i class="fa-brands fa-youtube text-secondary-emphasis mx-2 fs-5"></i>
+          <i class="fa-brands fa-instagram text-secondary-emphasis mx-2 fs-5"></i>
+        </div>
+        <div class="text-secondary-emphasis mx-2 mx-lg-0">Powered by Karim Chehab</div>
+      </div>
+    </footer>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
